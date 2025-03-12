@@ -17,11 +17,12 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files
+# create a .env.local folder in root directory and add your sting in this format     MONGODB_URI="your mongodb connection string"
 .env*
 
 # vercel
 .vercel
 
-# typescript
+# typescript   
 *.tsbuildinfo
 next-env.d.ts

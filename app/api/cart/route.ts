@@ -1,3 +1,4 @@
+
 import { NextResponse } from "next/server"
 import clientPromise from "@/lib/db"
 import { getCurrentUser } from "@/lib/auth"
@@ -196,4 +197,10 @@ export async function PUT(request: Request) {
     return NextResponse.json({ error: "Failed to update cart" }, { status: 500 })
   }
 }
+
+
+
+
+
+
 
