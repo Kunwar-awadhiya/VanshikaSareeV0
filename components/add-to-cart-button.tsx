@@ -18,7 +18,7 @@ export default function AddToCartButton({ product }: { product: Product }) {
   const addToCart = async () => {
     setLoading(true)
 
-    // In a real app, you would add the product to the cart
+    // In a real app, you should add the product to the cart
     // This could be in localStorage, a context, or an API call
 
     setTimeout(() => {
