@@ -24,7 +24,7 @@ const slides = [
     id: 3,
     image: "/placeholder.svg?height=600&width=1600",
     title: "Exclusive Saree Collection",
-    description: "Handcrafted with love and tradition",
+    description: "Handcrafted with love & tradition",
     link: "/category/saree",
   },
 ]
